@@ -10,7 +10,5 @@ Route::get('/network-security', [ArticleController::class, 'showNetworkSecurityA
 Route::get('/article/{id}', [ArticleController::class, 'showArticleDetail'])->name('article_detail');
 Route::get('/writers', [WriterController::class, 'showWriters'])->name('writers');
 Route::get('/writer/{id}/articles', [ArticleController::class, 'showWriterArticles'])->name('writer_articles');
-Route::get('/about', function () {
-    return view('other/about');
-})->name('about');
+Route::get('/about', function () {return view('other/about');})->name('about');
 Route::get('/popular', [ArticleController::class, 'showPopularArticles'])->name('popular');

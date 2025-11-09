@@ -12,6 +12,12 @@
             <p class="text-secondary mb-3">
                 Whether you're a seasoned professional or just starting your journey in these exciting fields, we aim to offer valuable content that caters to all levels of expertise. Thank you for visiting, and we hope you find our articles both informative and engaging!
             </p>
+            <p class="text-secondary mt-5">
+                Made by Steven Hardyanto | 2702341341
+            </p>
+            <p class="text-secondary">
+                Documentation can be found in /Documentation/QuizWebProg.pdf
+            </p>
         </div>
     </div>
 </div>
